@@ -23,7 +23,7 @@ Route::get('/', function()
 
 });*/
 
-Route::get('/lig/{lines}', function($lines)
+Route::get('P3/public/lig/{lines}', function($lines)
 {
 	//return View::make('lig');
 	$generator = new Badcow\LoremIpsum\Generator();
@@ -32,7 +32,7 @@ echo implode('<p>', $paragraphs);
 });
 
 
-Route::get('/lig', function() {
+Route::get('P3/public/lig', function() {
 
 	//return View::make('lig');
 	echo 'Number of Paragraphs?';
@@ -54,7 +54,7 @@ echo implode('<p>', $paragraphs);
 
 });
 
-Route::get('/rug', function()
+Route::get('/P3/public/rug', function()
 {
 	//return View::make('rug');
 	//return View::make('lig');
@@ -68,7 +68,7 @@ Route::get('/rug', function()
 });
 
 
-Route::post('/rug', function() {
+Route::post('P3/public/rug', function() {
 
 		$fakerer = Faker\Factory::create();
 		$users = $fakerer->name(Input::get('title'));
@@ -128,7 +128,7 @@ for ($i='title'; $i < 'title' ; $i++) {
 //below is a route that takes in a paremeter from what the user 
 //types into the url
 
-Route::get('/books', function()
+/* Route::get('/books', function()
 {
 	echo App::environment();
 	$generator = new Badcow\LoremIpsum\Generator();
@@ -162,4 +162,4 @@ Route::get('/permissions', function()
 {
 	return View::make('permissions');
 	return 'hello world 5!';
-});
+});  */
