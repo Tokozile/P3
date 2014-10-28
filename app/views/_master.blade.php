@@ -39,7 +39,7 @@
 		{{Form::label('max', '(Max Paragraphs: 100)')}}
 		<br>
 		<br>
-		{{Form::checkbox('box', '1')}}
+		{{Form::checkbox('box1', '1')}}
 		{{Form::label('box', '(Add color to paragraphs)')}}
 		<br>
 		<br>
@@ -59,11 +59,11 @@
 		{{Form::label('max', '(Max users: 50)')}}
 		<br>
 		<br>
-		{{Form::checkbox('box', '1')}}
-		{{Form::label('box', '(Include Gender)')}}
+		{{Form::checkbox('box2', '2')}}
+		{{Form::label('box', '(Include email)')}}
 		<br>
 		<br>
-		{{Form::checkbox('box', '1')}}
+		{{Form::checkbox('box3', '3')}}
 		{{Form::label('box', '(Include Birthday)')}}
 		<br>
 		<br>

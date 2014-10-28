@@ -80,43 +80,62 @@ Route::post('/lig', function() {
 	/* elseif (!is_numeric($_POST['paragraphs'])) {
 		echo 'Please enter a number gbetween 1 and 100';
 	} */
-	else{
+	else
+	{
 
-		for ($i=0; $i < $users_num ; $i++) { 
+		for ($i=0; $i < $users_num ; $i++) 
+		{ 
+			echo $users_1->imageUrl(300, 200, 'cats');	
+				echo '<br>';	
+			echo $users_1->name; 
+				echo '<br>';
+		  // 'Lucy Cechtelar';
+
+			echo $users_1->address;
+				echo '<br>'; 
+		  // "426 Jordy Lodge
+		  // Cartwrightshire, SC 88120-6700"
+
+			//IT WORKS!!! :)	
+			if (isset($_POST['box2'])) 
+			{
+				
+
+				echo $users_1->username;
+				echo '<br>'; 
+
+			}
+
+			//IT WORKS!!! :)
+			if (isset($_POST['box3']))  
+			{
 			
-	echo $users_1->name; 
-	echo '<br>';
-  // 'Lucy Cechtelar';
-	echo $users_1->address;
-	echo '<br>'; 
-  // "426 Jordy Lodge
-  // Cartwrightshire, SC 88120-6700"
-/*foreach ($_POST as $value)  {
-	
-	//print_r($_POST);
-	echo $users_1->name; 
-	echo '<br>';
-  // 'Lucy Cechtelar';
-	echo $users_1->address;
-	echo '<br>'; 
-  // "426 Jordy Lodge
-  // Cartwrightshire, SC 88120-6700"
+				echo $users_1->text;
+				echo '<br>'; 
+			} 
 
-	print_r($_POST); */
+			//IT WORKS!!! :)
+			if (isset($_POST['box2']) && isset($_POST['box3']))  {
+			
+				echo $users_1->date;
+				echo '<br>'; 
+
+				echo $users_1->email;
+				echo '<br>'; 
+
+			} 
+
+			/*else
+			{
 
 
-}}
-		//$users = new Faker\Generator();
+			//print_r($_POST['box']);
 
-	//$faker = $users->get(Input::get('users'));
+			}*/
 
-		//echo implode('<p>', $faker);
+		}
+	}
 
-		//$user = $fakerer->name(Input::get('users'));
-
-		//foreach ($_POST as $key => $value) 
-	/*		$fakerer = Faker\Factory::create();
-		$user = $fakerer->name(Input::get('users')); */
 	
 });
 
