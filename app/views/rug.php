@@ -44,12 +44,12 @@
 // alternatively, use another PSR-0 compliant autoloader (like the Symfony2 ClassLoader for instance)
 
 // use the factory to create a Faker\Generator instance
-$faker = Faker\Factory::create();
+//$faker = Faker\Factory::create();
 
 // generate data by accessing properties
-echo $faker->name;
+//echo $faker->name;
   // 'Lucy Cechtelar';
-echo $faker->address;
+//echo $faker->address;
   // "426 Jordy Lodge
   // Cartwrightshire, SC 88120-6700"
 ?>-->

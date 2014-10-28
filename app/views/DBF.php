@@ -38,8 +38,8 @@
 		<img scr="/img/DevelopersEconomics_01.jpg"/>
 		<h1>Welcome to Developer's Best Friend!</h1>
 		<h3>A couple of tools that you will find very useful as a developer are: <h3>
-			<h3><a href='/P3/public/lig'>Lorem Ipsum Generator</a></h3>
-			<h3><a href='/P3/public/rug'>Random User Generator</a></h3>
+			<h3><a href='/lig'>Lorem Ipsum Generator</a></h3>
+			<h3><a href='/rug'>Random User Generator</a></h3>
 
 			<h3>Lorem Ipsum is place holder text used commonly by developers. It is used in place of actually 
 			paragraphs so that the meaningless nature of the text allows focus to be directed to the overall layout and design typically of a website or website page.</h3>

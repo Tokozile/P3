@@ -36,12 +36,6 @@
 <body>
 	<div class="welcome">
 		<h1>Lorem Ipsum Generator</h1>
-
-		    $view  = '<form method="POST" action="/lig">';
-    $view .= 'Title: <input type="text" name="title">';
-    $view .= '<input type="submit">';
-    $view .= '</form>';
-    return $view;
 	</div>
 </body>
 </html>
