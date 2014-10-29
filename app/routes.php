@@ -85,8 +85,8 @@ Route::post('/lig', function() {
 
 		for ($i=0; $i < $users_num ; $i++) 
 		{ 
-			echo $users_1->imageUrl(300, 200, 'cats');	
-				echo '<br>';	
+			//echo $users_1->imageUrl(300, 200, 'cats');	
+				//echo '<br>';	
 			echo $users_1->name; 
 				echo '<br>';
 		  // 'Lucy Cechtelar';

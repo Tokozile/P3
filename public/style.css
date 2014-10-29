@@ -1,0 +1,38 @@
+.button {
+	border: none;
+    background-color:#aed57c; text-align:center;
+    padding: 15px 15px;
+    border-radius: 5px;
+}
+.button:hover {
+    border: none;
+    background-color:#f39c12; text-align:center;
+    padding: 15px 15px;
+    border-radius: 5px;
+}
+
+.Words {
+	width: 50px;
+}
+
+.echo{
+		
+    background-color:#aed57c; text-align:center;
+    padding: 15px 15px;
+   /* border-radius: 5px; */
+    color:#2b2829;
+    /*border-width: 50px 20px 50px 20px;*/
+
+}
+
+body {
+	color:#aeb57c; text-align:center; float:relative;
+}
+
+p {
+	color:#f47321;
+}
+
+img, a {
+	margin:auto; display:block;
+}
