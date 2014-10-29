@@ -1,4 +1,28 @@
-<!doctype html>
+@extends('_master')
+
+@section('title')
+	Random Users
+	
+@stop
+
+@section('head')
+    <!--<link rel='stylesheet' href='/css/hello-world.css' type='text/css'>-->
+@stop
+
+@section('content')
+
+	<h1>Random User Generator</h1>
+
+
+@stop
+
+@section('footer')
+    <!--<script src="/js/hello-world.js"></script>-->
+@stop
+
+
+
+<!-- <!doctype html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -39,3 +63,4 @@
 	</div>
 </body>
 </html>
+ -->
