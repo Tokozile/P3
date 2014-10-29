@@ -101,7 +101,7 @@ Route::post('/lig', function() {
 			{
 				
 
-				echo $users_1->username;
+				echo $users_1->text;
 				echo '<br>'; 
 
 			}
@@ -110,17 +110,17 @@ Route::post('/lig', function() {
 			if (isset($_POST['box3']))  
 			{
 			
-				echo $users_1->text;
+				echo $users_1->date;
 				echo '<br>'; 
 			} 
 
 			//IT WORKS!!! :)
 			if (isset($_POST['box2']) && isset($_POST['box3']))  {
 			
-				echo $users_1->date;
+				echo $users_1->text;
 				echo '<br>'; 
 
-				echo $users_1->email;
+				echo $users_1->date;
 				echo '<br>'; 
 
 			} 
