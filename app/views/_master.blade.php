@@ -60,7 +60,7 @@
 		<br>
 		<br>
 		{{Form::checkbox('box2', '2')}}
-		{{Form::label('box', '(Include email)')}}
+		{{Form::label('box', '(Include Profile)')}}
 		<br>
 		<br>
 		{{Form::checkbox('box3', '3')}}
