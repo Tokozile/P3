@@ -58,8 +58,7 @@ echo implode('<p>', $paragraphs);
 });
 
 
-Route::post('/lig', function() {
-
+Route::post('/lig_1', function() {
 
 
 
@@ -67,10 +66,13 @@ Route::post('/lig', function() {
 
 	$users_num = Input::get('users');
 
-	
-    $array = Input::except('_token');
-	return View::make('/lig')
-	->with('array', $users_num);
+/*			return View::make('/lig_1')
+			->with('user', $users_1);
+*/
+
+   // $array = Input::except('_token');
+	//return View::make('/lig_1');
+
 
 
 //print_r($_POST);
@@ -140,11 +142,14 @@ Route::post('/lig', function() {
 
 		}
 	}
+	//return URL::previous();
 
-	
+	return URL::to('/');
+
+
 });
 
-Route::get('/rug', function()
+/*Route::get('/rug', function()
 {
 	//return View::make('rug');
 	//return View::make('lig');
@@ -156,3 +161,4 @@ Route::get('/rug', function()
     return $view;
 
 });
+*/

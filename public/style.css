@@ -1,13 +1,14 @@
 .button {
 	border: none;
-    background-color:#aed57c; text-align:center;
-    padding: 15px 15px;
+    background-color:#f47321; text-align:center;
+    padding: 8px 8px;
     border-radius: 5px;
+    /*color:#999; */
 }
 .button:hover {
     border: none;
-    background-color:#f39c12; text-align:center;
-    padding: 15px 15px;
+    background-color:#aed57c; text-align:center;
+    padding: 8px 8px;
     border-radius: 5px;
 }
 
@@ -25,14 +26,45 @@
 
 }
 
-body {
-	color:#aeb57c; text-align:center; float:relative;
+.welcome, h2 {
+
+/*color:#f39c12; */
+
+color:#3B444B;
 }
 
-p {
-	color:#f47321;
+
+body {
+	color:#aeb57c; text-align:center; float:relative;
+padding: 20px; font-weight:lighter; background-image: url("img/DevelopersEconomics_01.jpg");
+}
+
+p, .ptext {
+	/*color:#f47321;
+color: #CCFFFF;*/
+/*color:#C9FFE5;*/
+
+color:#FFFFFF;
+}
+
+h3 {
+/*color:#5D8AA8;
+color:#aed57c;*/
+
+color:#3B444B;
 }
 
 img, a {
-	margin:auto; display:block;
+	margin:auto; display:block; 
 }
+
+.lig, .rug {
+    width: 35%;
+	height: 400px;
+  padding: 25px; 
+    border: 10px solid #C9FFE5;
+	box-shadow: 10px 10px 5px #888888;
+    margin: 50px;
+	float: left; /*position:relative;*/
+
+{

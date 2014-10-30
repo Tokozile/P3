@@ -47,7 +47,17 @@
 </body>
 </html> -->
 
-//<?php
+<!-- //<?php
 
 			//echo 
-		//?>
+		//?> -->
+
+
+
+<body> 
+	<div class="welcome"> 
+		<h1>Lorem Ipsum Generator</h1> 
+{{ HTML::linkRoute('/') }}
+	</div> 
+</body> 
+ </html> 
