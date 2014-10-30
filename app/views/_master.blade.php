@@ -13,7 +13,7 @@
 	@yield('head')
 
 	    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
-    	<link rel='stylesheet' href='public/style.css' type='text/css'>
+    	<link rel='stylesheet' href='/style.css' type='text/css'>
 
 </head>
 
