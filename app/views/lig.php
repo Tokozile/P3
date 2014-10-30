@@ -1,28 +1,6 @@
-@extends('_master')
-
-@section('title')
-	Random Users
-	
-@stop
-
-@section('head')
-    <!--<link rel='stylesheet' href='/css/hello-world.css' type='text/css'>-->
-@stop
-
-@section('content')
-
-	<h1>Random User Generator</h1>
 
 
-@stop
-
-@section('footer')
-    <!--<script src="/js/hello-world.js"></script>-->
-@stop
-
-
-
-<!-- <!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -60,7 +38,11 @@
 <body>
 	<div class="welcome">
 		<h1>Lorem Ipsum Generator</h1>
+
+		<?php
+
+			return '/lig';
+		?>
 	</div>
 </body>
 </html>
- -->

@@ -60,12 +60,17 @@ echo implode('<p>', $paragraphs);
 
 Route::post('/lig', function() {
 
+
+
+
 	$users_1 = Faker\Factory::create();
 
 	$users_num = Input::get('users');
 
 	
-
+    $array = Input::except('_token');
+	return View::make('/lig')
+	->with('array', $users_num);
 
 
 //print_r($_POST);

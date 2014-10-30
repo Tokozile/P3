@@ -42,10 +42,6 @@
 		{{Form::label('max', '(Max Paragraphs: 100)')}}
 		<br>
 		<br>
-		{{Form::checkbox('box1', '1')}}
-		{{Form::label('box', '(Add color to paragraphs)')}}
-		<br>
-		<br>
 		{{Form::submit('Generate Lorem Ipsum')}}
 
 		{{Form::close() }}
