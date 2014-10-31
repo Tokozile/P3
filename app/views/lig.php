@@ -1,6 +1,4 @@
-<!-- 
-
-<!doctype html>
+<!-- <!doctype html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -34,20 +32,19 @@
 			margin: 16px 0 0 0;
 		}
 	</style>
-</head>
+</head>-->
 <body>
 	<div class="welcome">
 		<h1>Lorem Ipsum Generator</h1>
 
-		<?php
+		
 
-			//echo 
-		?>
+			<?php echo $users_1; ?>
+
+			<?php echo 'hello'; ?>
+		
+		
 	</div>
 </body>
-</html> -->
+</html> 
 
-//<?php
-
-			//echo 
-		//?>

@@ -144,10 +144,14 @@ Route::post('/lig_1', function() {
 	}
 	//return URL::previous();
 
-	return URL::to('/');
 
 
 });
+
+	
+	return URL::to('/');
+	$view = View::make('lig_1', $users_1);
+	URL::previous();
 
 /*Route::get('/rug', function()
 {

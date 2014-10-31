@@ -9,6 +9,7 @@ http://p3.harvard-cscie15.me/
 Project 3 will provide tools that developers can use to generate Lorem Ipsum paragraphs and random users
 
 *********DEMO**********
+http://screencast.com/t/oF7VYSge
 
 Our demo sessions are on Saturday. I will be attending that session remotely but will record a demo for this project. 
 

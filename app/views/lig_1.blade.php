@@ -1,11 +1,9 @@
-<!-- 
-
 <!doctype html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>Laravel PHP Framework</title>
-	<style>
+	<!--<style>
 		@import url(//fonts.googleapis.com/css?family=Lato:700);
 
 		body {
@@ -33,31 +31,21 @@
 			font-size: 32px;
 			margin: 16px 0 0 0;
 		}
-	</style>
+	</style>-->
 </head>
 <body>
 	<div class="welcome">
 		<h1>Lorem Ipsum Generator</h1>
 
-		<?php
 
-			//echo 
-		?>
+hello {{$users_num['name']}}!
+
+
+			<?php echo $users_1; ?>
+
+			<?php echo 'hello'; ?>
 	</div>
 </body>
-</html> -->
-
-<!-- //<?php
-
-			//echo 
-		//?> -->
+</html>
 
 
-
-<body> 
-	<div class="welcome"> 
-		<h1>Lorem Ipsum Generator</h1> 
-{{ HTML::linkRoute('/') }}
-	</div> 
-</body> 
- </html> 
